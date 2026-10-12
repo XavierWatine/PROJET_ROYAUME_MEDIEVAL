@@ -1,53 +1,98 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="doCLJf0JEXplL8x7_uKZ">
-    <mxGraphModel dx="1010" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2090" dy="2055" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-26" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;swimlaneFillColor=default;" value="Classname" vertex="1">
-          <mxGeometry height="372" width="400" x="280" y="350" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-111" edge="1" parent="1" source="2XiPVf_AHbk9y0yWsSQn-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.561;entryDx=0;entryDy=0;fontSize=14;fontStyle=1;fontFamily=Lucida Console;" target="2XiPVf_AHbk9y0yWsSQn-109" value="1,1">
+          <mxGeometry relative="1" x="0.8351" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-27" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="- id : Integer" vertex="1">
-          <mxGeometry height="26" width="400" y="26" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-112" connectable="0" parent="2XiPVf_AHbk9y0yWsSQn-111" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontStyle=1;fontFamily=Lucida Console;" value="peuple" vertex="1">
+          <mxGeometry relative="1" x="-0.0301" y="1" as="geometry">
+            <mxPoint x="49" y="37" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-60" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="- nom : String" vertex="1">
-          <mxGeometry height="26" width="400" y="52" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-26" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;swimlaneFillColor=default;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=0;fontSize=14;fontFamily=Lucida Console;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Royaume&lt;/font&gt;" vertex="1">
+          <mxGeometry height="372" width="600" x="140" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-61" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="- niveau : int" vertex="1">
-          <mxGeometry height="26" width="400" y="78" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-27" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;" value="- id : Integer" vertex="1">
+          <mxGeometry height="26" width="600" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-62" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="- nombreHabitants : int" vertex="1">
-          <mxGeometry height="26" width="400" y="104" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-60" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;" value="- nom : String" vertex="1">
+          <mxGeometry height="26" width="600" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-63" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="- niveauMilitaire : int" vertex="1">
-          <mxGeometry height="26" width="400" y="130" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-61" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;" value="- niveau : int" vertex="1">
+          <mxGeometry height="26" width="600" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-28" parent="2XiPVf_AHbk9y0yWsSQn-26" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#BAC8D3;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="" vertex="1">
-          <mxGeometry height="8" width="400" y="156" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-62" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;" value="- nombreHabitants : int" vertex="1">
+          <mxGeometry height="26" width="600" y="104" as="geometry" />
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-29" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ calculerDistance(autre : Royaume) : double" vertex="1">
-          <mxGeometry height="26" width="400" y="164" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-63" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;" value="- niveauMilitaire : int" vertex="1">
+          <mxGeometry height="26" width="600" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-66" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ appliquerCroissance(taux : double) : void" vertex="1">
-          <mxGeometry height="26" width="400" y="190" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-28" parent="2XiPVf_AHbk9y0yWsSQn-26" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="8" width="600" y="156" as="geometry" />
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-67" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ crediterRessource(ressource : Ressource, quantite : int) : void" vertex="1">
-          <mxGeometry height="26" width="400" y="216" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-29" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;convertToSvg=0;svgWhiteSpace=wrap;fontSize=14;" value="+ calculerDistance(autre : Royaume) : double" vertex="1">
+          <mxGeometry height="26" width="600" y="164" as="geometry" />
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-68" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ debiterRessource(ressource : Ressource, quantite : int) : boolean" vertex="1">
-          <mxGeometry height="26" width="400" y="242" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-66" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;" value="+ appliquerCroissance(taux : double) : void" vertex="1">
+          <mxGeometry height="26" width="600" y="190" as="geometry" />
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-69" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ aAssezDeRessources(ressource : Ressource, quantite : int) : boolean" vertex="1">
-          <mxGeometry height="26" width="400" y="268" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-67" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;" value="+ crediterRessource(ressource : Ressource, quantite : int) : void" vertex="1">
+          <mxGeometry height="26" width="600" y="216" as="geometry" />
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-70" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ peutMonterDeNiveau() : boolean" vertex="1">
-          <mxGeometry height="26" width="400" y="294" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-68" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;" value="+ debiterRessource(ressource : Ressource, quantite : int) : boolean" vertex="1">
+          <mxGeometry height="26" width="600" y="242" as="geometry" />
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-71" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ ameliorerNiveau() : void" vertex="1">
-          <mxGeometry height="26" width="400" y="320" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-69" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;" value="+ aAssezDeRessources(ressource : Ressource, quantite : int) : boolean" vertex="1">
+          <mxGeometry height="26" width="600" y="268" as="geometry" />
         </mxCell>
-        <mxCell id="2XiPVf_AHbk9y0yWsSQn-72" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ getPuissanceDefensive() : int" vertex="1">
-          <mxGeometry height="26" width="400" y="346" as="geometry" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-70" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;" value="+ peutMonterDeNiveau() : boolean" vertex="1">
+          <mxGeometry height="26" width="600" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-71" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;" value="+ ameliorerNiveau() : void" vertex="1">
+          <mxGeometry height="26" width="600" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-72" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;" value="+ getPuissanceDefensive() : int" vertex="1">
+          <mxGeometry height="26" width="600" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-109" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=1;strokeColor=#36393d;swimlaneFillColor=default;fontFamily=Lucida Console;fontSize=14;fontStyle=1;labelBackgroundColor=none;horizontal=1;fillColor=#cdeb8b;roundedPerimeter=1;whiteSpace=wrap;arcSize=7;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt; Population&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;# id : Integer&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;# nom : String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;# titreSouverin : String&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;+ getMultiplicateurCombat(cible : Population) : double&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;+&amp;nbsp;getBonusProduction(ressource : Ressource) : double&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;+&amp;nbsp;activerCapaciteSpeciale(royaume : Royaume) : void&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="180" width="520" x="1000" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-151" edge="1" parent="1" source="2XiPVf_AHbk9y0yWsSQn-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.927;entryY=0.022;entryDx=0;entryDy=0;endArrow=block;endFill=0;" target="2XiPVf_AHbk9y0yWsSQn-109">
+          <mxGeometry relative="1" x="0.0007" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-118" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=1;strokeColor=#36393d;swimlaneFillColor=default;fontFamily=Lucida Console;fontSize=14;fontStyle=1;labelBackgroundColor=none;horizontal=1;fillColor=#cdeb8b;roundedPerimeter=1;whiteSpace=wrap;arcSize=7;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;PopulationCanards&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;+ danseDesCanards() : void&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="300" x="1660" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-152" edge="1" parent="1" source="2XiPVf_AHbk9y0yWsSQn-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.002;entryY=0.144;entryDx=0;entryDy=0;endArrow=block;endFill=0;" target="2XiPVf_AHbk9y0yWsSQn-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-146" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=1;strokeColor=#36393d;swimlaneFillColor=default;fontFamily=Lucida Console;fontSize=14;fontStyle=1;labelBackgroundColor=none;horizontal=1;fillColor=#cdeb8b;roundedPerimeter=1;whiteSpace=wrap;arcSize=7;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;PopulationTeuteus&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;+ danseDesCanards() : void&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="300" x="1660" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-153" edge="1" parent="1" source="2XiPVf_AHbk9y0yWsSQn-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" target="2XiPVf_AHbk9y0yWsSQn-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-147" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=1;strokeColor=#36393d;swimlaneFillColor=default;fontFamily=Lucida Console;fontSize=14;fontStyle=1;labelBackgroundColor=none;horizontal=1;fillColor=#cdeb8b;roundedPerimeter=1;whiteSpace=wrap;arcSize=7;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;PopulationLicornes&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;+ danseDesCanards() : void&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="300" x="1660" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-154" edge="1" parent="1" source="2XiPVf_AHbk9y0yWsSQn-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-148" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=1;strokeColor=#36393d;swimlaneFillColor=default;fontFamily=Lucida Console;fontSize=14;fontStyle=1;labelBackgroundColor=none;horizontal=1;fillColor=#cdeb8b;roundedPerimeter=1;whiteSpace=wrap;arcSize=7;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;PopulationPrincesses&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;+ danseDesCanards() : void&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="300" x="1660" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-155" edge="1" parent="1" source="2XiPVf_AHbk9y0yWsSQn-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.837;entryY=1.017;entryDx=0;entryDy=0;endArrow=block;endFill=0;" target="2XiPVf_AHbk9y0yWsSQn-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-149" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=1;strokeColor=#36393d;swimlaneFillColor=default;fontFamily=Lucida Console;fontSize=14;fontStyle=1;labelBackgroundColor=none;horizontal=1;fillColor=#cdeb8b;roundedPerimeter=1;whiteSpace=wrap;arcSize=7;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;PopulationGoblins&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;+ danseDesCanards() : void&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="300" x="1660" y="885" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
