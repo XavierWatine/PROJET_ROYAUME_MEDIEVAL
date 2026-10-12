@@ -1,0 +1,55 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="doCLJf0JEXplL8x7_uKZ">
+    <mxGraphModel dx="1010" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-26" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;swimlaneFillColor=default;" value="Classname" vertex="1">
+          <mxGeometry height="372" width="400" x="280" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-27" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="- id : Integer" vertex="1">
+          <mxGeometry height="26" width="400" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-60" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="- nom : String" vertex="1">
+          <mxGeometry height="26" width="400" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-61" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="- niveau : int" vertex="1">
+          <mxGeometry height="26" width="400" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-62" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="- nombreHabitants : int" vertex="1">
+          <mxGeometry height="26" width="400" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-63" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="- niveauMilitaire : int" vertex="1">
+          <mxGeometry height="26" width="400" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-28" parent="2XiPVf_AHbk9y0yWsSQn-26" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#BAC8D3;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="" vertex="1">
+          <mxGeometry height="8" width="400" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-29" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ calculerDistance(autre : Royaume) : double" vertex="1">
+          <mxGeometry height="26" width="400" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-66" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ appliquerCroissance(taux : double) : void" vertex="1">
+          <mxGeometry height="26" width="400" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-67" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ crediterRessource(ressource : Ressource, quantite : int) : void" vertex="1">
+          <mxGeometry height="26" width="400" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-68" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ debiterRessource(ressource : Ressource, quantite : int) : boolean" vertex="1">
+          <mxGeometry height="26" width="400" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-69" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ aAssezDeRessources(ressource : Ressource, quantite : int) : boolean" vertex="1">
+          <mxGeometry height="26" width="400" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-70" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ peutMonterDeNiveau() : boolean" vertex="1">
+          <mxGeometry height="26" width="400" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-71" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ ameliorerNiveau() : void" vertex="1">
+          <mxGeometry height="26" width="400" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2XiPVf_AHbk9y0yWsSQn-72" parent="2XiPVf_AHbk9y0yWsSQn-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;labelBackgroundColor=none;fontColor=#182E3E;" value="+ getPuissanceDefensive() : int" vertex="1">
+          <mxGeometry height="26" width="400" y="346" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
